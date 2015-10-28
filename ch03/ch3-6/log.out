@@ -1,0 +1,48 @@
+--------
+|  12  |
+|  23  |
+|  74  |
+|  15  |
+|  10  |
+--------
+#1 -> 23 transferred to #2 -> 12
+#1 -> 74 transferred to #2 -> 23
+--------
+|  15  |
+|  10  |
+--------
+--------
+|  74  |
+|  23  |
+|  12  |
+--------
+ - Temp Saved: 15
+#2 -> 74 transferred to #1 -> 10
+#2 -> 23 transferred to #1 -> 74
+#1 -> 23 transferred to #2 -> 15
+#1 -> 74 transferred to #2 -> 23
+--------
+|  10  |
+--------
+--------
+|  74  |
+|  23  |
+|  15  |
+|  12  |
+--------
+ - Temp Saved: 10
+#2 -> 74 transferred to #1 -> -2147483648
+#2 -> 23 transferred to #1 -> 74
+#2 -> 15 transferred to #1 -> 23
+#2 -> 12 transferred to #1 -> 15
+#1 -> 12 transferred to #2 -> 10
+#1 -> 15 transferred to #2 -> 12
+#1 -> 23 transferred to #2 -> 15
+#1 -> 74 transferred to #2 -> 23
+--------
+|  10  |
+|  12  |
+|  15  |
+|  23  |
+|  74  |
+--------
